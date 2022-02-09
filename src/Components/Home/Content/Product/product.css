@@ -1,0 +1,127 @@
+.product__link{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.product__link-text{
+    font-family: DIN Pro,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+}
+.product__link-text:hover{
+    color: #ff9846;
+}
+.product__content{
+    display: flex;
+    background-color: #fff;
+    margin: 52px 0 30px;
+}
+.product__content-img{
+    width: 50%;
+}
+.product__content-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 58px 47px 41px;
+}
+.product__content-title{
+    font-family: DIN Pro,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+.product__content-buy{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin: 30px 0;
+}
+.product__content-line{
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.product__content-line:hover{
+    background: #F46D40;
+    color: white;
+}
+.product__content-pay{
+    display: flex;
+    column-gap: 19px;
+}
+.product__content-pay-count{
+    font-family: DIN Pro,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+.product__content-pay-btn{
+    width: 40px;
+    height: 40px;
+    background: #F46D40;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.product__rec{
+    font-family: DIN Pro,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.product__swiper-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translateX(35px);
+}
+.product__swiper-title{
+    font-family: DIN Pro,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 10px 0;
+}
+.product__swiper-buy{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+}
+.product__swiper-btn{
+    width: 26px;
+    height: 26px;
+    background: #F46D40;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
