@@ -2,11 +2,11 @@
     display: flex;
 }
 .home__sidebar{
-    padding: 0 40px 0 50px;
+    padding: 0 40px 0 15px;
     display: flex;
     flex-direction: column;
     row-gap: 32px;
-    width: 15%;
+    width: 18%;
 }
 .home__sidebar-top{
     padding-bottom: 30px;

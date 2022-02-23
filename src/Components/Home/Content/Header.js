@@ -17,7 +17,6 @@ const Header = () => {
         } else {
             setAll([]);
         }
-
     };
 
     return (

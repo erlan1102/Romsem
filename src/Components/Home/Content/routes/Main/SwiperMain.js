@@ -41,7 +41,6 @@ const SwiperMain = () => {
                 ? <SwiperForMain arr={setsCard}/>
                 : <SwiperForMain arr={pizzaCard}/>
             }
-
         </>
     );
 };
